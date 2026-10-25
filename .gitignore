@@ -1,0 +1,24 @@
+# Keep commercial game images and extracted assets out of Git.
+# Always review staged files manually before publishing.
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+build/
+dist/
+scratch/
+local/
+# Original or rebuilt Java ME packages / copyrighted audio assets
+*.jar
+*.jad
+*.wav
+*.ogg
+*.mld
+*.mfi
+*.mid
+*.midi
+*.sp
+*.sav
+*.zip
