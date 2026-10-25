@@ -1,6 +1,6 @@
 # Final Fantasy II — Namco J2ME Audio Restoration
 
-Restoration of independent background-music and sound-effect controls in Namco's **Final Fantasy II** J2ME edition.
+Namco's original J2ME release of **Final Fantasy II** could play background music or sound effects, but its audio handling prevented them from playing together: with music active, sound effects could be suppressed. This restoration removes that limitation and introduces four working audio modes: **Complete** (music and sound effects simultaneously), **Music Only**, **SFX Only**, and **Off**. It preserves the game's existing music and sound resources.
 
 **Status (25 October 2026): v1.0 Stable approved following user gameplay verification. IPS and BPS archives have both been independently verified against the original and tested output.**
 
