@@ -25,3 +25,7 @@ An internal **v1.0 candidate** with IPS/BPS patches and checksums was packaged d
 ## Preservation policy
 
 Independent, non-commercial preservation research; not affiliated with Square Enix or Namco. **No complete copyrighted JARs or extracted proprietary assets** are distributed. Users provide their own legally obtained game files.
+
+## Recovered release-candidate source (24 October 2026)
+
+The [v1.0 candidate reproduction guide](releases/v1.0-candidate/README.md) and [hashes](releases/v1.0-candidate/HASHES.sha256) are now committed. The 1 KB [Git binary class patch](patches/v1.0/ffii_audio_v1_classes_git_binary.patch) and [`tools/build_ffii_v1_from_class_patch.py`](tools/build_ffii_v1_from_class_patch.py) reconstruct the **exact** user-tested v0.4/v1.0 JAR from the specific original Namco JAR. Source and target SHA-256 were verified independently against the recovered original and archived IPS/BPS patches. The initial public release tag remains unpublished until clean-install regression testing is complete.
